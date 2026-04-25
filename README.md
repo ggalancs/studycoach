@@ -1,5 +1,7 @@
 # README
 
+Built to verify  my own senior-level claims after +30 years in IT and +10 in RoR
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
