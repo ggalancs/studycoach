@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:17
+  environment:
+    POSTGRES_USER: studycoach
+    POSTGRES_PASSWORD: studycoach
+    POSTGRESS_DB: studycoach_development
+  ports:
+    - "5432:5432"
+  volumes:
+    - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
